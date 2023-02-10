@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+#container{
+    width: 1080px;
+    height: 1080px;
+    margin: 150px auto;
+}
+
+.conteudo{
+    width: 1080px;
+    height: 1080px;
+    border: solid 1px #000;
+    overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    width: 400%;
+    transition:all .6s;
+}
+
+label img{
+    width: 120px;
+    cursor: pointer;
+    float: left;
+}
+
+#imagem2:checked ~ .principal .slide{
+    margin-left: -100%;
+}
+
+#imagem3:checked ~ .principal .slide{
+    margin-left: -200%;
+}
+
+input[name="grupo"]{
+    display: none;
+}

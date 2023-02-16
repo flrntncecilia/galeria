@@ -15,7 +15,7 @@ for (var i=0; i < thumbnails.length; i++){
             document.getElementById('featured').src = this.src
     })
 }
-let buttonRight = document.getElementById('slideRight');
+                let buttonRight = document.getElementById('slideRight');
 		let buttonLeft = document.getElementById('slideLeft');
 
 		buttonLeft.addEventListener('click', function(){
